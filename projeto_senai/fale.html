@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rede de Computadores (fale conosco)</title>
+        <meta charset="utf-8">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+        rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="../../Downloads/pingendo-linux-x86_64/Untitled.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css">
+		<script type="text/javascript" src="codigoJQuery.js"></script>
+		<link rel="stylesheet" type="text/css" href="outroCSS.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid" id="barraNavegacao">
+                <div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+                    <a class="navbar-brand" href="http://sc.senai.br/" target="_blank" title="Conheça o site do SENAI">SENAI</a>
+                </div>
+               <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="inicio.html">INÍCIO</a>
+                        </li>
+                        <li>
+                            <a href="novagrade.html">GRADE CURRICULAR</a>
+                        </li>
+                        <li class="active">
+                            <a href="fale.html">FALE CONOSCO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><br><br>
+        <div class="container">
+            <div class="row">
+                <div class="clearfix visible-lg"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="clearfix visible-lg"></div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Deixe seu comentário</h2>
+			<br>
+            <p>Objetivo da mensagem</p>
+            <form role="form">
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="">Informação</label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="">Reclamação</label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value="">Sugestão</label>
+                <div class="form-group">
+					<br>
+                    <label class="control-label">Selecione a unidade</label>
+                    <select class="form-control">
+                        <option>Blumenau</option>
+                        <option>Florianópolis</option>
+                        <option>Brusque</option>
+                        <option>Balneário Caboriú</option>
+                        <option>Indaial</option>
+                        <option>Criciúma</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="container">
+            <form role="form">
+                <div class="form-group">
+                    <div class="col-xs-5 text-left">
+                        <label for="ex1">Nome</label>
+                        <input class="form-control" id="ex1" type="text">
+						<p style="color:red" id="erroNome">*Neste campo só é permitido letras!</p>
+						<p style="color:red" id="erroNome2">*Este campo está vazio!</p>
+                    </div>
+                    <br><br><br><br><br>
+                    <div class="col-xs-4">
+                        <label for="ex2">Telefone</label>
+                        <input class="form-control" id="ex2" type="text">
+						<p style="color:red" id="erroTel">*Neste campo só é permitido números!</p>
+						<p style="color:red" id="erroTel2">*Este campo está vazio!</p>
+                    </div>
+                    <br><br><br><br><br>
+                    <div class="col-xs-5 text-left">
+                        <label for="ex3">E-mail</label>
+                        <input class="form-control" id="ex3" type="text">
+						<p style="color:red" id="erroEmail">*E-mail incorreto. Verifique e tente novamete.</p>
+						<p style="color:red" id="erroEmail2">*Este campo está vazio!</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+		<br><br>
+        <div class="container">
+            <form role="form">
+                <div class="form-group">
+                    <label for="comment">Comentário</label>
+					<p style="color:red" id="erroComent">*Este campo está vazio!</p>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="btn btn-primary btn-sm" id="enviar">Enviar</a>
+                    </div>
+                </div>
+				<div class="section">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<hr>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <ul class="pager">
+                            <li>
+                                <a href="novagrade.html" class="tema">←  Voltar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="section section-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h2>Alunos Do Curso de Análise e desenvovimento de Sistemas</h2>
+                        <p>Adriel de Negredo
+                            <br>Eduardo Brusky
+                            <br>Lucas Compasso Mota</p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p class="text-info text-right">
+                            <br>
+                            <br>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
+                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 hidden-xs text-right">
+                                <a href="#"><i class="fa fa-3x fa-fw fa-instagram fa-spin text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-spin fa-twitter text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-facebook fa-fw fa-spin text-inverse"></i></a>
+                                <a href="#"><i class="fa fa-3x fa-fw fa-github fa-spin text-inverse"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

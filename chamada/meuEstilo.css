@@ -1,0 +1,84 @@
+/* estilo da tela de login */
+.p{
+	margin: 1px;
+	margin-top: 20px;
+}
+#enviar{
+	margin: 10px;
+}
+div[name=login]{
+	padding-left: 40%;
+	padding-top: 10%;
+}
+div[name=contas]{
+	padding-left: 40%;
+}
+
+
+
+/* estilo da lista e cadastro de alunos */
+.centralizado{
+	text-align:center;
+	margin: auto;
+}
+.menu{
+	padding-top: 15px;
+	width: 100%;
+}
+.campoFalta{
+	width: 30px;
+	text-align: center;
+}
+body{
+	background-color: #000033;
+	font-family: "Roboto";
+}
+p, table, h1, h3{
+	color: white;
+}
+a{
+	color: yellow;
+}
+.aluno{
+	color: yellow;
+	text-decoration: none;
+}
+.aluno:hover{
+	color: red;
+}
+table{
+	width: 50%;
+	margin-left: 25%;
+	border-collapse: collapse;
+	border: solid 3px;
+}
+tr, td, th{
+	border: solid 1px;
+}
+td, th{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+th{
+	background-color: #000080;
+	border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
